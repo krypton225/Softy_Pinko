@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  background-image: linear-gradient(to right, #a759d1 1%, #8261ee 99%);
+  padding: 50px 0;
+  font-family: "Raleway";
+}
+
+.social a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  margin: 0 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: var(--white-color);
+  border: 0;
+  border-radius: 50%;
+}
+
+.social a i {
+  font-size: 14px;
+  color: #a759d1;
+}
+
+.footer .line {
+  width: 90%;
+  height: 1px;
+  margin: 20px auto;
+  background-color: rgba(250, 250, 250, 0.2);
+}
+
+.footer p {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 20px auto;
+}

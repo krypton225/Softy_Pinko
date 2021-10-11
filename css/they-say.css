@@ -1,0 +1,51 @@
+.they-say {
+  width: 100%;
+  font-family: "Raleway";
+}
+
+.items-say .item {
+  width: 30%;
+  float: left;
+}
+
+.items-say .item.mg {
+  margin: 0 5%;
+}
+
+.items-say .item img {
+  padding-left: 40%;
+  margin-bottom: 22px;
+}
+
+.items-say .item p {
+  width: 86%;
+  color: var(--light-gray);
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.item .info {
+  margin-top: 20px;
+  margin-left: 65px;
+  transition: margin-left 0.5s;
+}
+
+.item .info .name-person {
+  display: block;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--gray-color);
+  margin-bottom: 10px;
+}
+
+.item .info .title-job {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1);
+}
+
+.items-say .item:hover .info {
+  margin-left: 75px;
+}

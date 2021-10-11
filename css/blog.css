@@ -1,0 +1,82 @@
+.blog {
+  width: 100%;
+  height: 600px;
+  font-family: "Raleway";
+}
+
+.blog .title-sec {
+  text-transform: capitalize;
+}
+
+.blog .custom-p {
+  width: 38%;
+  margin-bottom: 60px;
+}
+
+.blog-items {
+  width: 100%;
+}
+
+.blog-items .item {
+  width: 30%;
+  float: left;
+}
+
+.blog-items .item.mg {
+  margin: 0 5%;
+}
+
+.photo-blog-item {
+  width: 260px;
+  height: 190px;
+}
+
+.photo-blog-item img {
+  width: 100%;
+}
+
+.blog-info {
+  width: 100%;
+}
+
+.blog-info .blog-item-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray-color);
+  margin-bottom: 18px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.blog-info .blog-item-title:hover {
+  color: var(--color-1);
+}
+
+.blog-info p {
+  width: 100%;
+  text-align: center;
+  color: var(--light-gray);
+  font-size: 12px;
+}
+
+.blog-info .read-more {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  background-color: var(--color-2);
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.blog-info .read-more:hover {
+  background-color: var(--color-1);
+}

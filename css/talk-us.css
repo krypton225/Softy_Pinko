@@ -1,0 +1,96 @@
+::placeholder {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.talk-us {
+  width: 100%;
+  margin-top: 120px;
+  background-color: var(--gray);
+  font-family: "Raleway";
+}
+
+.title-sec {
+  text-transform: capitalize;
+}
+
+.custom-p {
+  width: 40%;
+}
+
+.keep-touch,
+.form-sec {
+  float: left;
+}
+
+.form-sec {
+  width: 60%;
+}
+
+.keep-touch {
+  width: 40%;
+}
+
+.keep-touch .title-keep {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.keep-touch p {
+  width: 70%;
+  color: var(--light-gray);
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.keep-touch .first-p {
+  margin: 25px 0;
+}
+
+input[name="full-name"],
+input[type="email"] {
+  display: inline-block;
+  width: 45%;
+  height: 42px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  border: 1px solid var(--white-color);
+  padding: 10px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+input:focus,
+input:active {
+  border: 1px solid var(--color-1);
+}
+
+.form-sec textarea {
+  width: 97%;
+  display: block;
+  margin-left: 10%;
+  margin: 15px 0;
+  padding: 15px;
+  resize: none;
+  border-radius: 20px;
+  border: 1px solid var(--white-color);
+  font-family: "Raleway";
+}
+
+.send-msg {
+  width: 140px;
+  height: 35px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: 100;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: var(--color-2);
+  color: var(--white-color);
+  transition: background-color 0.5s;
+}
+
+.send-msg:hover {
+  background-color: var(--color-1);
+}

@@ -1,0 +1,94 @@
+.pricing-plans {
+  font-family: "Raleway";
+  background-color: var(--gray);
+}
+
+.pricing-plans .title-sec {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.pricing-plans .custom-p {
+  width: 40%;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.items-pricing {
+  width: 100%;
+}
+
+.items-pricing .item {
+  width: 31%;
+  height: 500px;
+  padding: 25px;
+  float: left;
+  background-color: var(--white-color);
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0px 2px 10px 1px rgb(212, 212, 212);
+}
+
+.items-pricing .item.mg {
+  margin: 0 3%;
+}
+
+.items-pricing .item .title-item-pricing {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  color: var(--gray-color);
+}
+
+.items-pricing .item .price-item {
+  background-color: var(--color-2);
+  color: var(--white-color);
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 15px;
+}
+
+.items-pricing .item.mg .price-item {
+  background-color: var(--color-1);
+}
+
+.item .price-item .dollar {
+  font-size: 30px;
+}
+
+.item .price-item .value-price {
+  font-size: 25px;
+}
+
+.item .price-item .monthly {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.item .advantages {
+  list-style: none;
+  margin: 35px 0;
+}
+
+.item .advantages li {
+  color: var(--light-gray);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.item .purchase-now {
+  width: 140px;
+  height: 35px;
+  border: 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: var(--color-2);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.item .purchase-now:hover {
+  background-color: var(--color-1);
+}
